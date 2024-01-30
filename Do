@@ -1,0 +1,1221 @@
+<html class="no-js"><head>
+		<title>Carriera studente</title>
+		
+
+
+ 
+
+
+
+
+<link rel="stylesheet" href="https://webcommons.polimi.it/webcommons/assets/ateneo2014.css.jsp?v=5&amp;lang=it&amp;dt_version=1.10" type="text/css">
+<link rel="stylesheet" href="https://webcommons.polimi.it/webcommons/ajax/libs/jqueryui/1.12.1/themes/polij.css.jsp?v=5&amp;lang=it" type="text/css">
+<link rel="stylesheet" href="https://webcommons.polimi.it/webcommons/assets/desktop.css.jsp?v=5&amp;lang=it" type="text/css">
+
+
+
+
+
+   <link rel="stylesheet" type="text/css" href="/portale_carriera_studente/assets/css/custom.css?__load_ts=1706184273235">
+ 
+
+
+ 
+
+
+
+ 
+<script src="https://webcommons.polimi.it/webcommons/ajax/libs/jqueryui/1.12.1/ui.js.jsp?v=5&amp;lang=it&amp;dt_version=1.10" type="text/javascript"></script>
+<script src="https://webcommons.polimi.it/webcommons/ajax/libs/desktop.js.jsp?v=5&amp;lang=it" type="text/javascript"></script>
+ 
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#loading').remove();
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+	</head>
+	<body>
+		<div id="jafBodyContainer">
+			<div id="polijPageHeader">
+				
+
+
+
+
+<table id="poliheader">
+	<tbody><tr>
+		<td class="jaf-text-align-left td-logo-polimi">
+			<a title="polimi.it" href="http://www.polimi.it">
+				<img class="logo-polimi" alt="logo-polimi" src="https://webcommons.polimi.it/webcommons/assets/logo_polimi_testo.png">
+			</a>
+			
+		</td>
+		<td class="jaf-text-align-center info-DB">
+			
+        </td>
+        <td class="jaf-text-align-right info-utente">
+            FRANCESCO FREGNA  960421 <a href="/portale_carriera_studente/portale_carriera_studente/controller/VisualizzaCarriere.do?evn_jaf_logout=evento&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=94912256cefbe83039dd05adeb97958a" class="Link link-LogOut">Logout</a><br>
+<span class="utente-descrizione">(Studente)</span>
+        </td>
+	</tr>
+</tbody></table>
+
+
+
+	
+
+<div id="policontext">
+	<nav class="nomeApp policontext-link" style="float: left; margin: auto 1em;">
+		<a href="/portale_carriera_studente/portale_carriera_studente/controller/VisualizzaCarriere.do?evn_uscita=evento&amp;freezecount=true&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=beaad0d1e865d2a4d466a07132f8e77a"><span class="glyphicon goBackIcon" aria-hidden="true"></span>Servizi online</a>  &gt;  Carriera didattica
+	</nav>
+	<div class="policontext-link">
+		<nav>
+			
+				
+
+
+
+
+
+
+
+			
+		</nav>
+	</div>
+	<div class="jaf-float-clear"></div>
+</div>
+			</div>			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="border-spacing: 0;border-collapse: collapse;" class="TablePage">
+<tbody><tr class="TrPage">
+<script type="text/javascript">var jaf_js_LANG = 'IT';</script>
+
+	
+	
+	<td style="width:20%;" class="LeftBar">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+	
+ 	
+			<br>		
+			<div>
+			<span class="title_function">Selezione carriera</span>
+			
+				
+				<span class="function">
+				
+						
+							<span class="fa fa-check jaf-blue seleziona"></span>
+						
+						
+						
+					<a style="text-alignement:left" href="VisualizzaCarriere.do?EVN_SELEZIONA_CARRIERA&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=baddc90531785b6752a85e059a007678" class="Link">960421</a>
+				</span>
+			
+			</div>
+			<br>
+			<div>
+			
+			
+				<span class="chip">
+					
+					
+						
+							
+							
+									<span style="color:white" class="fa fa-check seleziona"></span>
+							
+							
+						
+					<a href="VisualizzaCarriere.do?evn_au_completa=evento&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=a391b69a3fdec9a0c23b0249ba6fbefe" class="Link">Anagrafica studenti
+
+
+</a>
+				
+					
+					
+				</span>
+				
+				
+					
+					
+						<span class="chip">
+						
+						
+							
+								
+								
+									<span style="color:white" class="fa fa-check seleziona"></span>
+								
+								
+						<a href="VisualizzaCarriere.do?evn_scegli_servizio=evento&amp;id_portale=89&amp;nome_servizio=DECADENZA&amp;formato_servizio=webservice&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=0515f7a36211cfa189591ac6a72767e9" class="Link">Condizioni di decadenza
+ </a>
+					
+						</span>
+					
+				
+					
+					
+						<span class="chip">
+						
+						
+							
+								
+								
+									<span style="color:white" class="fa fa-check seleziona"></span>
+								
+								
+						<a href="VisualizzaCarriere.do?evn_scegli_servizio=evento&amp;id_portale=85&amp;nome_servizio=ISCRIZIONI&amp;formato_servizio=webservice&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=7c3a4168d4586a9736b4b000af445795" class="Link">Immatricolazione
+ </a>
+					
+						</span>
+					
+				
+					
+					
+						<span class="chip">
+						
+						
+							
+								
+								
+									<span style="color:white" class="fa fa-check seleziona"></span>
+								
+								
+						<a href="VisualizzaCarriere.do?evn_scegli_servizio=evento&amp;id_portale=87&amp;nome_servizio=LAUREA&amp;formato_servizio=dbtablefunction&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=23af587ee8959d1a7d522103e1832e67" class="Link">Laurea/Uscita
+ </a>
+					
+						</span>
+					
+				
+					
+					
+						<span class="chip">
+						
+						
+							
+								
+								
+									<span style="color:white" class="fa fa-check seleziona"></span>
+								
+								
+						<a href="VisualizzaCarriere.do?evn_scegli_servizio=evento&amp;id_portale=311&amp;nome_servizio=PIANO_STUDI_AZ2_CONV&amp;formato_servizio=webservice&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=c7a65140cdd8d1d31ff233b75d575fd5" class="Link">Passion in Action - convalide </a>
+					
+						</span>
+					
+				
+					
+					
+						<span class="chip">
+						
+						
+							
+								
+									<span class="fa fa-check jaf-blue seleziona"></span>
+								
+								
+						<a href="VisualizzaCarriere.do?evn_scegli_servizio=evento&amp;id_portale=61&amp;nome_servizio=PIANO_STUDI&amp;formato_servizio=webservice&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=c01228f11ea472533a4b6fd5db1c5ab6" class="Link">Piano degli studi
+ </a>
+					
+						</span>
+					
+				
+					
+					
+						<span class="chip">
+						
+						
+							
+								
+								
+									<span style="color:white" class="fa fa-check seleziona"></span>
+								
+								
+						<a href="VisualizzaCarriere.do?evn_scegli_servizio=evento&amp;id_portale=104&amp;nome_servizio=PR_LINGUA&amp;formato_servizio=dbview&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=28472a707b0da9345cf6aafb13e9869f" class="Link">Prova di lingua </a>
+					
+						</span>
+					
+				
+					
+					
+						<span class="chip">
+						
+						
+							
+								
+								
+									<span style="color:white" class="fa fa-check seleziona"></span>
+								
+								
+						<a href="VisualizzaCarriere.do?evn_scegli_servizio=evento&amp;id_portale=102&amp;nome_servizio=VALORE_NV&amp;formato_servizio=dbview&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=4b7cba27ac179c84836290e1c5f575e3" class="Link">Valore NV </a>
+					
+						</span>
+					
+				
+			
+			</div>
+			
+	
+	
+			
+		
+<br>
+
+
+
+	
+			<h3>
+			
+				
+			
+			<a href="https://servizionline.polimi.it/portaleservizi/portaleservizi/controller/Return.do?jaf_currentWFID=main&amp;EVN_REENTER=evento&amp;__pj0=0&amp;__pj1=2ce3aac68038134371cfe53a11837a40" class="Link">Indietro</a></h3>
+	
+ 
+
+	</td>
+	
+	<td style="width:80%;" class="CenterBar">
+		
+				
+		 				
+		 					
+
+
+
+
+
+
+
+
+	
+	
+	<table class="TableDati">
+		<thead>
+			<tr>
+				<th class="HeadColumn1">Codice persona</th>
+				<th class="HeadColumn1">Cognome</th>
+				<th class="HeadColumn1">Nome</th>
+				<th class="HeadColumn1">Data di nascita</th>
+				<th class="HeadColumn1">Luogo di nascita
+
+</th>
+				<th class="HeadColumn1">Email</th>
+				<th class="HeadColumn1">Contatti telefonici</th>
+				<th class="HeadColumn1">Codice fiscale</th>
+			</tr>
+		</thead>
+		<tbody class="TableDati-tbody">
+			<tr class="dispari ">
+				<td class="Dati1"><b>10766582</b></td>
+				<td class="Dati1">
+					<b>FREGNA</b>
+				</td>
+				<td class="Dati1"><b>FRANCESCO</b></td>
+				<td class="Dati1">26/08/2001</td>
+				<td class="Dati1">ITALIA - MN - MANTOVA</td>
+				<td class="Dati1"><a href="mailto:francesco.fregna@mail.polimi.it">francesco.fregna@mail.polimi.it</a></td>
+				<td class="Dati1">+393479265497<br></td>
+				<td class="Dati1">FRGFNC01M26E897C</td>
+			</tr>
+		</tbody>
+		</table> 
+		<br>
+		 				
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="polij_table jaf-fluid-table"><caption>Riepilogo carriere</caption><thead><tr><th class="">Matricola</th><th class="">AA di inizio carriera
+</th><th class="">AA di fine carriera</th><th class="">Data disattivazione</th><th class="">Stato carriera</th><th class="">Tipo corso</th><th class="">Corso di studi</th></tr></thead><tbody><tr><td data-title="Matricola" class=""><div role="presentation" class="list-only list-label">Matricola</div><div class="content-cell"><b>960421</b></div></td><td data-title="AA di inizio carriera
+" class=""><div role="presentation" class="list-only list-label">AA di inizio carriera
+</div><div class="content-cell">2020/21</div></td><td data-title="AA di fine carriera" class="emptyCell "><div role="presentation" class="list-only list-label">AA di fine carriera</div><div class="content-cell"></div></td><td data-title="Data disattivazione" class="emptyCell "><div role="presentation" class="list-only list-label">Data disattivazione</div><div class="content-cell"></div></td><td data-title="Stato carriera" class=""><div role="presentation" class="list-only list-label">Stato carriera</div><div class="content-cell">ATTIVO</div></td><td data-title="Tipo corso" class=""><div role="presentation" class="list-only list-label">Tipo corso</div><div class="content-cell">LAUREA DI PRIMO LIVELLO</div></td><td data-title="Corso di studi" class=""><div role="presentation" class="list-only list-label">Corso di studi</div><div class="content-cell">Ing Ind - Inf (1 liv.)(ord. 270) - MI (358) INGEGNERIA INFORMATICA</div></td></tr></tbody></table>
+
+
+<!-- <script type="text/javascript">
+
+$(document).ready(function(){
+	
+	//L'interfaccia viene bloccata durante la richiesta ajax
+	$.blockUI.defaults.css = {};
+	
+	$(".listaCarriere").click(function(event) { 
+		// Stop form from submitting normally
+		event.preventDefault();
+		
+		//block when ajax activity starts
+		$.blockUI({message: '<i class="fa fa-spinner fa-pulse fa-lg"></i> Elaborazione in corso, attendere prego...	'});
+		
+		var matricola = $( this ).text();		 
+		// Send the data using post
+		var getting = $.get( "VisualizzaCarriere.do?EVN_SELEZIONA_CARRIERA&jaf_currentWFID=main&polij_step=0&__pj0=0&__pj1=4e190d7ae9c8dfd7c89c82a5c1de3a69", { ajax: "true", matricola: matricola} );
+		 
+		 // Put the results in a div
+		getting.done(function( data ) {
+			javascript $( "#div_dettaglio_carriera").empty().append(data); 
+			#div_table_gestionePortaleCarrieraVO_studente_carriere_carrieraSel_portaleCarrieraSezioneVOs.load();
+			 
+		})
+		.fail(function() {
+    		alert("ERR_LETTURA_DETTAGLIO_CARRIERA");
+    	})
+		.always(function( data ) {
+			$.unblockUI();
+		});
+	});
+
+//fine document ready
+});
+</script> -->
+
+<div id="div_dettaglio_carriera">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="border-spacing: 0;border-collapse: collapse;" class="TablePage">
+<tbody><tr class="TrPage">
+<script type="text/javascript">var jaf_js_LANG = 'IT';</script>
+
+
+	
+
+	
+
+
+			<!-- per mettere in evidenza o meno uno studente  -->
+			
+
+
+			<!-- Informazioni sull'iscrizione ai vari anni accademici -->
+			</tr></tbody></table><table class="polij_table jaf-fluid-table"><thead><tr><th class="">Anno accademico iscrizione
+</th><th class="">Anno corso iscrizione
+</th><th class="">Posizione iscrizione
+
+</th><th class="">Paritasse</th><th class="">Corso di studi iscrizione
+</th><th class="">Pspa iscrizione
+</th><th class="">Classe di laurea</th></tr></thead><tbody><tr><td data-title="Anno accademico iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno accademico iscrizione
+</div><div class="content-cell">2023/24</div></td><td data-title="Anno corso iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno corso iscrizione
+</div><div class="content-cell">3</div></td><td data-title="Posizione iscrizione
+
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Posizione iscrizione
+
+</div><div class="content-cell">RI</div></td><td data-title="Paritasse" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Paritasse</div><div class="content-cell">29/05/2024</div></td><td data-title="Corso di studi iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Corso di studi iscrizione
+</div><div class="content-cell">Ing Ind - Inf (1 liv.)(ord. 270) - MI (358) INGEGNERIA INFORMATICA</div></td><td data-title="Pspa iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Pspa iscrizione
+</div><div class="content-cell">I3I</div></td><td data-title="Classe di laurea" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Classe di laurea</div><div class="content-cell">L-8</div></td></tr><tr><td data-title="Anno accademico iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno accademico iscrizione
+</div><div class="content-cell">2022/23</div></td><td data-title="Anno corso iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno corso iscrizione
+</div><div class="content-cell">3</div></td><td data-title="Posizione iscrizione
+
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Posizione iscrizione
+
+</div><div class="content-cell">RE</div></td><td data-title="Paritasse" class="emptyCell  jaf-text-align-right"><div role="presentation" class="list-only list-label">Paritasse</div><div class="content-cell"></div></td><td data-title="Corso di studi iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Corso di studi iscrizione
+</div><div class="content-cell">Ing Ind - Inf (1 liv.)(ord. 270) - MI (358) INGEGNERIA INFORMATICA</div></td><td data-title="Pspa iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Pspa iscrizione
+</div><div class="content-cell">I3I</div></td><td data-title="Classe di laurea" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Classe di laurea</div><div class="content-cell">L-8</div></td></tr><tr><td data-title="Anno accademico iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno accademico iscrizione
+</div><div class="content-cell">2021/22</div></td><td data-title="Anno corso iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno corso iscrizione
+</div><div class="content-cell">2</div></td><td data-title="Posizione iscrizione
+
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Posizione iscrizione
+
+</div><div class="content-cell">RE</div></td><td data-title="Paritasse" class="emptyCell  jaf-text-align-right"><div role="presentation" class="list-only list-label">Paritasse</div><div class="content-cell"></div></td><td data-title="Corso di studi iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Corso di studi iscrizione
+</div><div class="content-cell">Ing Ind - Inf (1 liv.)(ord. 270) - MI (358) INGEGNERIA INFORMATICA</div></td><td data-title="Pspa iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Pspa iscrizione
+</div><div class="content-cell">IT1</div></td><td data-title="Classe di laurea" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Classe di laurea</div><div class="content-cell">L-8</div></td></tr><tr><td data-title="Anno accademico iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno accademico iscrizione
+</div><div class="content-cell">2020/21</div></td><td data-title="Anno corso iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Anno corso iscrizione
+</div><div class="content-cell">1</div></td><td data-title="Posizione iscrizione
+
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Posizione iscrizione
+
+</div><div class="content-cell">RE</div></td><td data-title="Paritasse" class="emptyCell  jaf-text-align-right"><div role="presentation" class="list-only list-label">Paritasse</div><div class="content-cell"></div></td><td data-title="Corso di studi iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Corso di studi iscrizione
+</div><div class="content-cell">Ing Ind - Inf (1 liv.)(ord. 270) - MI (358) INGEGNERIA INFORMATICA</div></td><td data-title="Pspa iscrizione
+" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Pspa iscrizione
+</div><div class="content-cell">IT1</div></td><td data-title="Classe di laurea" class=" jaf-text-align-right"><div role="presentation" class="list-only list-label">Classe di laurea</div><div class="content-cell">L-8</div></td></tr></tbody></table>
+
+
+			<!-- se l'utente non ha selezionato nessun servizio dal men,  appena entrato nella pagina e bisogna mostrare il servizio di default ULTIMO PIANO -->
+
+			
+					<!-- visualizza informazioni relative al servizio selezionato -->
+					
+						
+						<div>
+							<span><h3>Voce selezionata:  Piano degli studi
+</h3>
+							</span>
+						</div>
+						
+						<table class="BoxInfoCard" style="border-spacing: 0;border-collapse: collapse;">
+
+							
+								<tbody><tr>
+									<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+										<em>Legenda</em>
+									</td>
+									<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+										<em>Approvato: S=sì; N=no // Tipo generazione: STD=studente; ATM=automatismo; SEG=segreteria; ERA=erasmus; 
+<br><b>Insegnamenti:</b> Posins: E=effettivo; S=soprannumero; O=obbligo; D=integrazione curriculare //  Stato esame: S=sostenuto; N=non sostenuto; C=convalidato; P=pubblicato; R=riprovato // Frequenza: Z=convalidata // Convalida: C=sostenimento; L=per superamento; F=frequenza; P=vincolo di divieto; G=convalida fuori Politecnico(senza pagamento); U=erasmus // Conv.parz.=crediti in convalida parziale</em>
+									</td>
+								</tr>
+							
+						</tbody></table>
+
+
+
+						<!-- gestisco l'element -->
+						<!-- inizio nuova gestione element messageFullOk -->
+                        
+
+                        
+                         
+
+
+                        <!-- fine nuova gestione element messageFullOk -->
+						
+						<!-- inizio vecchia gestione element messageOk -->
+						
+
+							<table class="BoxInfoCard" style="border-spacing: 0;border-collapse: collapse;">
+
+
+
+								
+									
+
+									<tbody><tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Stato 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											Approvato
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Anno Accademico di presentazione 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											2023/24
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Data di presentazione 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											Sep 28, 2023, 6:28:31 PM
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Data di approvazione 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											Dec 30, 2023, 1:00:19 AM
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Anno Accademico di validità
+ 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											2023/24
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Piano di Studi Preventivamente Approvato 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											I3I, Informatica
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Media voti (calcolata sul piano approvato) 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											19.67
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Totale CFU presenti nel piano 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											125.0
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Totale CFU utili per conseguire la laurea 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											125.0
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Totale CFU effettivi sostenuti  
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											45.0
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Classe di Laurea scelta 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											L-8
+										</td>
+									</tr>
+								
+									
+
+									<tr>
+										<td colspan="1" rowspan="1" style="width: 20%" class="ElementInfoCard1 jaf-card-element">
+											Tipo generazione 
+										</td>
+										<td colspan="1" rowspan="1" class="ElementInfoCard2 jaf-card-element">
+											STD
+										</td>
+									</tr>
+								
+							</tbody></table>
+
+						
+
+						<!-- gestisco la collezione [recordset]-->
+						<!-- inizio vecchia gestione collection messageOk -->
+						
+
+							
+
+
+							<table class="polij_table jaf-fluid-table"><thead><tr><th class="">Anno corso
+</th><th class="">AA</th><th class="">Codice ins.
+</th><th class="">Descrizione
+</th><th class="">Corso laurea</th><th class="">PSPA</th><th class="">Posins
+</th><th class="">Semestre
+
+</th><th class="">Stato esame
+</th><th class="">Crediti</th><th class="">Docenti</th><th class="">Data esame
+</th><th class="">Voto</th></tr></thead><tbody><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">3</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">051230
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=051230&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=215dbb9cdb3985997a1ca21668c49b26" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">SICUREZZA DELLE RETI</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">I3I</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">5.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">BREGNI STEFANO</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">3</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">051234
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=051234&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=606441afe3b71edf3cf8b05f011aecbe" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">SOFTWARE DEFINED NETWORKING</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">I3I</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">5.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">VERTICALE GIACOMO</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">3</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">052512
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=052512&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=c6f52f6b359c3185e27ac736813a5a3e" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">BIOINFORMATICS ALGORITHMS</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">I3I</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">5.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">PIRO ROSARIO MICHAEL</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">3</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">085923
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=085923&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=4b890abe428a0c4967f528179c51e1b8" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">PROVA FINALE (INGEGNERIA DEL SOFTWARE)</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">I3I</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">3.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">SAN PIETRO PIERLUIGI</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">3</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">052510
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=052510&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=4066ea2fba47e808e2b62ceb04eb8227" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">INGEGNERIA DEL SOFTWARE</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">I3I</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">7.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">SAN PIETRO PIERLUIGI</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">2</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">085905
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=085905&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=c76df50ce9a0271762730e098d475871" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">FONDAMENTI DI AUTOMATICA</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">10.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">FALSONE ALESSANDRO</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">2</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">052425
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=052425&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=435692d6dee67d873e6a1195faaf411c" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">ANALISI MATEMATICA 2</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">10.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">GARRIONE MAURIZIO</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">2</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">085903
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=085903&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=1e309baafabcd716fa66ef208ac15442" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">LOGICA E ALGEBRA</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">5.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">ADAMI STEFANIA</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">1</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">051124
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=051124&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=accf285858e2adc77948e295ea6f0014" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">FISICA</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">12.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">YIVLIALIN ROSSELLA</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">1</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">082748
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=082748&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=803bd641dce2c8e770e9e6d87dc63323" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">ELETTROTECNICA</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">10.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">MAFFEZZONI PAOLO</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">1</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2023/24</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">082747
+																
+																
+													
+
+
+													
+														
+															
+																
+																	
+																		
+																		
+																	<a href="VisualizzaCarriere.do?EVN_SALTASCHEDAINCARICO=evento&amp;c_insegn=082747&amp;matricola=960421&amp;jaf_currentWFID=main&amp;polij_step=0&amp;__pj0=0&amp;__pj1=5690c51552a180d681dac7308ae4b6ec" class="Link">Programma dettagliato</a></div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">GEOMETRIA E ALGEBRA LINEARE</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">N</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">8.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">RODARO EMANUELE</div></td><td data-title="Data esame
+" class="emptyCell "><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell"></div></td><td data-title="Voto" class="emptyCell "><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell"></div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">2</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2022/23</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">085779</div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">ARCHITETTURA DEI CALCOLATORI E SISTEMI OPERATIVI</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">S</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">10.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">BREVEGLIERI LUCA ODDONE</div></td><td data-title="Data esame
+" class=""><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell">12-09-2023</div></td><td data-title="Voto" class=""><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell">20</div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">1</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2022/23</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">082740</div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">ANALISI MATEMATICA 1</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">S</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">10.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">SOAVE NICOLA</div></td><td data-title="Data esame
+" class=""><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell">09-02-2023</div></td><td data-title="Voto" class=""><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell">18</div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">2</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2021/22</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">085900</div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">CHIMICA GENERALE</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">S</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">5.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">BARBERA VINCENZINA</div></td><td data-title="Data esame
+" class=""><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell">17-01-2022</div></td><td data-title="Voto" class=""><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell">21</div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">1</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2020/21</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">054303</div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">FONDAMENTI DI COMUNICAZIONI E INTERNET</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">2</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">S</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">10.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">MAIER GUIDO ALBERTO</div></td><td data-title="Data esame
+" class=""><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell">03-07-2021</div></td><td data-title="Voto" class=""><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell">21</div></td></tr><tr><td data-title="Anno corso
+" class=""><div role="presentation" class="list-only list-label">Anno corso
+</div><div class="content-cell">1</div></td><td data-title="AA" class=""><div role="presentation" class="list-only list-label">AA</div><div class="content-cell">2020/21</div></td><td data-title="Codice ins.
+" class=""><div role="presentation" class="list-only list-label">Codice ins.
+</div><div class="content-cell">082746</div></td><td data-title="Descrizione
+" class=""><div role="presentation" class="list-only list-label">Descrizione
+</div><div class="content-cell">FONDAMENTI DI INFORMATICA</div></td><td data-title="Corso laurea" class=""><div role="presentation" class="list-only list-label">Corso laurea</div><div class="content-cell">INF</div></td><td data-title="PSPA" class=""><div role="presentation" class="list-only list-label">PSPA</div><div class="content-cell">IT1</div></td><td data-title="Posins
+" class=""><div role="presentation" class="list-only list-label">Posins
+</div><div class="content-cell">E</div></td><td data-title="Semestre
+
+" class=""><div role="presentation" class="list-only list-label">Semestre
+
+</div><div class="content-cell">1</div></td><td data-title="Stato esame
+" class=""><div role="presentation" class="list-only list-label">Stato esame
+</div><div class="content-cell">S</div></td><td data-title="Crediti" class=""><div role="presentation" class="list-only list-label">Crediti</div><div class="content-cell">10.0</div></td><td data-title="Docenti" class=""><div role="presentation" class="list-only list-label">Docenti</div><div class="content-cell">MIELE ANTONIO ROSARIO</div></td><td data-title="Data esame
+" class=""><div role="presentation" class="list-only list-label">Data esame
+</div><div class="content-cell">25-06-2021</div></td><td data-title="Voto" class=""><div role="presentation" class="list-only list-label">Voto</div><div class="content-cell">19</div></td></tr></tbody></table>
+
+							
+							
+
+						
+
+						
+						
+						
+						
+						
+						
+						
+						
+
+							
+						
+
+						
+						<!-- fine vecchia gestione collection messageOk -->
+
+						
+						
+						
+						
+												
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+					
+
+				
+
+		
+</div></td></tr></tbody></table>
+
+</div>
+
+					
+			
+	
+	
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.polij_tabs').on( "tabsactivate", function( event, ui ) {
+		var selected = $('.polij_tabs').tabs('option', 'active');		
+		$.post("VisualizzaCarriere.do?EVN_AGGIORNA_TAB_SELEZIONATO&jaf_currentWFID=main&polij_step=0&__pj0=0&__pj1=dd9d6a743823c3da6fb418477624a477", {tab_selezionato : selected + 1});
+	});
+});
+</script>
+
+
+    
+		
+		
+		
+	
+
+
+<table class="polifooter">
+	<tfoot class="tfoot-tablePage">
+    	<tr>
+    		<td>
+    			<div class="jaf-text-align-left">
+	   				 Carriera didattica v. 2.0.6 / 2.0.6
+	   			</div>
+    		</td>
+    		<td>
+    			<div class="jaf-text-align-center">
+					Area Servizi ICT
+    			</div>
+    		</td>
+    		<td>
+    			<div class="jaf-text-align-right" id="div-tfoot-tablePage-centerBar">
+    				
+    			</div>
+    		</td>
+	   	</tr>
+    </tfoot>
+</table>
+
+		
+	
+</body></html>
